@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/tv_name_activity_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="second activity"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="32dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#BF01A0"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_age_activity_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="second activity"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="32dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#BF01A0"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_height_activity_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="second activity"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="32dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#BF01A0"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_working_status_activity_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="second activity"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="32dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#BF01A0"
+        android:layout_marginHorizontal="32dp"/>
+
+
+
+</LinearLayout>

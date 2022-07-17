@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_name_activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginBottom="12dp"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        android:backgroundTint="#E91E63"/>
+
+    <EditText
+        android:id="@+id/et_age_activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginBottom="12dp"
+        android:hint="Enter Age"
+        android:inputType="number"
+        android:backgroundTint="#E91E63"/>
+
+    <EditText
+        android:id="@+id/et_height_activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginBottom="12dp"
+        android:hint="Enter Hight"
+        android:inputType="numberDecimal"
+        android:backgroundTint="#E91E63"/>
+
+    <EditText
+        android:id="@+id/et_working_status_activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginBottom="12dp"
+        android:inputType="text"
+        android:hint="Enter Working Status"
+        android:backgroundTint="#E91E63"/>
+
+    <Button
+        android:id="@+id/btn_open_second_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:text="go to second activity" />
+
+
+
+</LinearLayout>
